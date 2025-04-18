@@ -1,0 +1,10 @@
+.clockContainer {
+    background-color: rgb(132, 130, 255);
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    place-items: center;
+    padding: 100px;
+    border-radius: 0px 0px 20px 20px;
+    height: 300px;
+}
