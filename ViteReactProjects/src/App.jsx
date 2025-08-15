@@ -1,6 +1,6 @@
 import { Routes, Route, Link } from 'react-router-dom'
 import MoodTracker from './mood-tracker/moodTracker'
-import Clock from './Clock/clock'
+import Clock from './clock/Clock'
 import CounterApp from './counter-app/CounterApp'
 
 function App() {
@@ -12,12 +12,12 @@ function App() {
         {/* Navigation Links */}
         <div className="navBar">
             <nav clas>
-                <Link to="/">Home</Link> 
                 <Link to="/counter-app">CounterApp</Link> 
                 <Link to="/mood-tracker">MoodTracker</Link>
                 <Link to="/clock">Clock</Link> 
             </nav>
         </div>
+        
       
         {/* Page Routes */}
         <Routes>
@@ -25,6 +25,7 @@ function App() {
             <Route path="/mood-tracker" element={<MoodTracker/>} />
             <Route path="/clock" element={<Clock/>} />
         </Routes>
+    
     </div>
   )
 }

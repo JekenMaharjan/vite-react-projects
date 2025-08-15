@@ -19,7 +19,7 @@ const CounterApp = () => {
 
   return (
     <div className='counterContainer'>
-        <h1 className='bg-gradient-to-r from-blue-600 to-white bg-clip-text text-transparent text-4xl font-bold'>
+        <h1 className='bg-gradient-to-r from-orange-600 to-white bg-clip-text text-transparent text-4xl font-bold'>
             Counter App
         </h1>
         <h2 className='text-white text-2xl'>
@@ -27,7 +27,7 @@ const CounterApp = () => {
         </h2>
         <div className='counterButtons'>
             <button onClick={increment}>+</button>
-            <button onClick={reset}>reset</button>
+            <button onClick={reset}>Reset</button>
             <button onClick={decrement}>-</button>    
         </div>
     </div>
