@@ -5,10 +5,14 @@ import CounterApp from './counter-app/CounterApp'
 
 function App() {
     return (
-    <div>
+    <div 
+    className='h-screen w-screen flex flex-col items-center justify-center'
+    style={{ background: "linear-gradient(135deg, #7c18ffbd 0%, #a3a3a3ff 100%)" }}
+    >
         {/* Navigation Links */}
         <div className="navBar">
             <nav clas>
+                <Link to="/">Home</Link> 
                 <Link to="/counter-app">CounterApp</Link> 
                 <Link to="/mood-tracker">MoodTracker</Link>
                 <Link to="/clock">Clock</Link> 
