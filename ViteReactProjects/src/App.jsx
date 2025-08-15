@@ -1,7 +1,7 @@
 import { Routes, Route, Link } from 'react-router-dom'
-import MoodTracker from './mood-tracker/moodTracker'
+import MoodTracker from './moodTracker/MoodTracker'
 import Clock from './clock/Clock'
-import CounterApp from './counter-app/CounterApp'
+import CounterApp from './counterApp/CounterApp'
 
 function App() {
     return (
